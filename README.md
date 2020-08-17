@@ -35,10 +35,10 @@ If you don't have Discord.js, also write `npm i discord.js`.
 
 ```js
 const Discord = require('discord.js')
-const bot = new Discord.Client()
+const client = new Discord.Client()
 const util = require('disjs-utilities')
 
-util.onReady('bot', 'Example Bot is online!', 'disjs-utilities', 'WATCHING')
+util.onReady('Example Bot is online!', 'disjs-utilities', 'WATCHING')
 
 bot.on("message", async message => {
 if(message.author.bot) return;
@@ -53,12 +53,12 @@ if(message.content === prefix + 'testEmbed') {
 util.sendEmbed('Important', 'Coming soon!', 'disjs-utilities')
 }
 
-bot.login('YOUR_TOKEN')
+client.login('YOUR_TOKEN')
 ```
 
 ## All Commands
 
-- `util.onReady(clientvariable, logmsg, statusmsg, statustype)`
+- `util.onReady(logmsg, statusmsg, statustype)`
   - Event onReady without writing many lines of code.
  
 - `util.sendMsg(msg, type)`
