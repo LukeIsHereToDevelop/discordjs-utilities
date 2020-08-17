@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 exports.test = function() {
-    console.log('discordjs-utilities is working correctly!')
+    console.log('disjs-utilities is working correctly!')
 }
 
 exports.onReady = function(clientvariable, logmsg, statusmsg, statustype) {
@@ -13,7 +13,7 @@ exports.onReady = function(clientvariable, logmsg, statusmsg, statustype) {
 
 exports.sendEmbed = function(titlemsg, descriptionmsg, footermsg) {
     if(!titlemsg, !descriptionmsg, !footermsg) {
-        return console.log("[discordjs-utilities] Cannot send Embed due to no args. Usage: .sendEmbed(titlemsg, descriptionmsg, footermsg)")
+        return console.log("[disjs-utilities] Cannot send Embed due to no args. Usage: .sendEmbed(titlemsg, descriptionmsg, footermsg)")
     } else {
     const embed = new Discord.MessageEmbed()
     .setTitle(titlemsg)
@@ -25,7 +25,7 @@ exports.sendEmbed = function(titlemsg, descriptionmsg, footermsg) {
 
 exports.sendMsg = function(msg, type) {
     if(!type, !msg) {
-        return console.log('[discordjs-utilities] Cannot send Message due to no args. Usage: sendMsg(msg, type)')
+        return console.log('[disjs-utilities] Cannot send Message due to no args. Usage: sendMsg(msg, type)')
     }
     else if(type === "channel") {
         message.channel.send(msg)
@@ -36,6 +36,6 @@ exports.sendMsg = function(msg, type) {
     else if(type === "author") {
         message.author.send(msg)
     } else {
-        console.log('[discordjs-utilities] Invalid usage! Usage: sendMsg(msg, type)')
+        console.log('[djsutils] Invalid usage! Usage: sendMsg(msg, type)')
     }
 }
