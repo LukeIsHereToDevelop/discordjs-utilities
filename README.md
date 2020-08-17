@@ -71,4 +71,4 @@ bot.login('YOUR_TOKEN')
  
  ## Links
  
- - [GitHub Repository](https://github.com/LukeIsHereToDevelop/discordjs-utilities)
+ - [GitHub Repository](https://github.com/LukeIsHereToDevelop/disjs-utilities)
