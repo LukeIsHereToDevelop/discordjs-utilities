@@ -1,0 +1,25 @@
+{
+  "name": "discordjs-utilities",
+  "version": "1.0.0",
+  "description": "A package that helps you in creating your Discord.js Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeIsHereToDevelop/discordjs-utilities.git"
+  },
+  "keywords": [
+    "discord.js",
+    "utilities",
+    "discord",
+    "utils"
+  ],
+  "author": "LukeIsHereToDevelop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeIsHereToDevelop/discordjs-utilities/issues"
+  },
+  "homepage": "https://github.com/LukeIsHereToDevelop/discordjs-utilities#readme"
+}
