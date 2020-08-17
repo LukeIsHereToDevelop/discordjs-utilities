@@ -59,13 +59,13 @@ bot.login('YOUR_TOKEN')
 ## All Commands
 
 - `util.onReady(clientvariable, logmsg, statusmsg, statustype)`
- - Event onReady without writing many lines of code.
+  - Event onReady without writing many lines of code.
  
 - `util.sendMsg(msg, type)`
- - Sends a Message on channel or dm.
+  - Sends a Message on channel or dm.
  
 - `util.sendEmbed(titlemsg, descriptionmsg, footermsg)`
- - Sends an Embed without writing many lines of code.
+  - Sends an Embed without writing many lines of code.
  
  ***Other Commands are Coming Soon!!***
  
